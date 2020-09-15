@@ -26,5 +26,9 @@ namespace XHub_Budget.Controllers
 
             return View();
         }
+        public ActionResult deneme()
+        {
+            return View();
+        }
     }
 }
