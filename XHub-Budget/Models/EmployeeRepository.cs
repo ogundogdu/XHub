@@ -6,7 +6,7 @@ namespace XHub_Budget.Models
 {
     public class EmployeeRepository : IEmployeeRepository
     {
-        MongoDbContext db = new MongoDbContext();
+        XHub_BudgetContext db = new XHub_BudgetContext();
         public async Task Add(Employee employee)
         {
             try
